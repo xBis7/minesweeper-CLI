@@ -23,21 +23,21 @@ If the player marks successfully all mine squares or if he opens all empty squar
 
 EXAMPLE of playing with 8x8 board and level 2 of difficulty(medium)
 
---- Welcome! ---
-This is a command line version of the well known game minesweeper
-Enter the board dimensions
-The number of rows can't be less than 6
-and more than 50
-The number of cols can't be less than 6
-and more than 50
-Enter the number of rows:8
-Enter the number of cols:8
-Choose a level of difficulty:
-1.Easy
-2.Medium
-3.Hard
-4.Really Hard
-Enter an integer(1,2,3,4):2
+          --- Welcome! ---
+          This is a command line version of the well known game minesweeper
+          Enter the board dimensions
+          The number of rows can't be less than 6
+          and more than 50
+          The number of cols can't be less than 6
+          and more than 50
+          Enter the number of rows:8
+          Enter the number of cols:8
+          Choose a level of difficulty:
+          1.Easy
+          2.Medium
+          3.Hard
+          4.Really Hard
+          Enter an integer(1,2,3,4):2
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -50,26 +50,26 @@ Enter an integer(1,2,3,4):2
      7 |  #  #  #  #  #  #  #  #
      8 |  #  #  #  #  #  #  #  #
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 3,4
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 3,4
 
-     1  2  3  4  5  6  7  8
----------------------------
-1 |  #  #  #  #  #  #  #  #
-2 |  #  #  #  #  #  #  #  #
-3 |  #  #  #  2  #  #  #  #
-4 |  #  #  #  #  #  #  #  #
-5 |  #  #  #  #  #  #  #  #
-6 |  #  #  #  #  #  #  #  #
-7 |  #  #  #  #  #  #  #  #
-8 |  #  #  #  #  #  #  #  #
+               1  2  3  4  5  6  7  8
+          ---------------------------
+          1 |  #  #  #  #  #  #  #  #
+          2 |  #  #  #  #  #  #  #  #
+          3 |  #  #  #  2  #  #  #  #
+          4 |  #  #  #  #  #  #  #  #
+          5 |  #  #  #  #  #  #  #  #
+          6 |  #  #  #  #  #  #  #  #
+          7 |  #  #  #  #  #  #  #  #
+          8 |  #  #  #  #  #  #  #  #
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 5,4
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 5,4
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -82,12 +82,12 @@ Make your move: s 5,4
      7 |  #  #  #  #  #  #  #  #
      8 |  #  #  #  #  #  #  #  #
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: h
-Try to open square 6,6 
-Make your move: s 6,6
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: h
+          Try to open square 6,6 
+          Make your move: s 6,6
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -100,13 +100,13 @@ Make your move: s 6,6
      7 |  #  #  #  #  #  #  #  #
      8 |  #  #  #  #  #  #  #  #
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: w
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: w
 
-Best square is 7,7
-Make your move: s 7,7
+          Best square is 7,7
+          Make your move: s 7,7
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -119,10 +119,10 @@ Make your move: s 7,7
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 2,2
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 2,2
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -135,10 +135,10 @@ Make your move: s 2,2
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 4,1
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 4,1
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -151,10 +151,10 @@ Make your move: s 4,1
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 1,4
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 1,4
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -167,10 +167,10 @@ Make your move: s 1,4
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 5,5
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 5,5
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -183,10 +183,10 @@ Make your move: s 5,5
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 4,5
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 4,5
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -199,10 +199,10 @@ Make your move: s 4,5
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 4,4
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 4,4
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -215,10 +215,10 @@ Make your move: s 4,4
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
-Make your move: s 4,6
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
+          Make your move: s 4,6
 
           1  2  3  4  5  6  7  8
      ---------------------------
@@ -231,10 +231,10 @@ Make your move: s 4,6
      7 |  #  2  .  1  1  1  .  .
      8 |  #  1  .  .  .  .  .  .
 
-Level: 1
-Difficulty: medium
-Uncovered mines: 9
+          Level: 1
+          Difficulty: medium
+          Uncovered mines: 9
 
-You were blown by a mine!
-GAME OVER!
-Better luck next time!
+          You were blown by a mine!
+          GAME OVER!
+          Better luck next time!
